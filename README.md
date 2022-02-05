@@ -1,39 +1,32 @@
-# Create the database model for Instagram
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Instagram exercise data modeling with Python
 
-**Important**: To do this activity you need to `fork` this repo into your **Github** account and then open the forked repo on Gitpod.
+![screenshot](https://raw.githubusercontent.com/m4n50n/instagram_exercise_data_modeling/main/screenshot_preview.png)
 
-Inside he `src/models.py` file you will find a couple of classes describing an example database.
+✏ *Building the Entity Relationship Diagram for the Instagram exercise. Inspired in **./preview.png***.
 
-Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
+## Instructions 📄
 
-We are going to be creating the Entity Relationship Diagram for Instagram Database, a very similar diagram to this one:
+* All classes are described in `src/models.py`
 
-![Instagram Diagram](https://github.com/breatheco-de/exercise-instagram-data-modeling/blob/master/assets/example.png?raw=true)
-[Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
+## Preview 🎬
 
-> 🔥 You can use this FREE tool to practice your diagram for the first time: https://app.quickdatabasediagrams.com/#/d/
+* You can open this repository in **Gitpod**.
+* Get inside the environment running `$ pipenv shell`
+* Install all dependencies with `$ pipenv install`
+* Generate the diagram as many times as you need: `$ python src/models.py`
+* Open the file `diagram.png` to check out the UML diagram.
+* If you receive a *pipenv* error, install it running the following command: `$ pip install pipenv`
 
+## Sources 📌
 
-## 💻 Installation
+<https://learn.breatheco.de/course/full-stack.v4/22/p/instagram-data-modeling>
 
-1. Get inside the environment `$ pipenv shell`
+<https://github.com/breatheco-de/exercise-instagram-data-modeling>
 
-2. Install all dependencies `$ pipenv install`
+<https://docs.sqlalchemy.org/en/14/core/type_basics.html>
 
-3. Generate de diagram as many times as you need `$ python src/models.py`
+<https://www.youtube.com/watch?v=UI6lqHOVHic>
 
-4. Open the file `diagram.png` to check out your UML diagram!
+<https://app.quickdatabasediagrams.com/>
 
-
-## 📝Instructions
-
-Your Job is to update the `src/models.py` file with the code needed to replicate the instagram data model.
-
-The project is using the SQLAlchemy Python library to generate the database.
-
-- What tables do you think instagram might have on its database: E.g: Post, User, etc.?
-- What properties should go inside the user? or inside the Post table?
-- Please add at least 4 models with all of its properties.
-- Degenerate the diagram.png file at the end by running `$ python3 models.py` on the console.
-
-
+💻 _Jose Clemente García Rodríguez_ (<https://github.com/m4n50n>)
